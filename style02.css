@@ -1,0 +1,51 @@
+.box{
+    background-color: #fffff;
+    min-height: 250px;
+    margin-top: 10px ;
+}
+#hihi{
+    background-color: #863939;
+    min-height: 40px;
+    width: 5px;
+}
+.container1{
+    display: flex;
+    align-items: center;
+}
+.container1 div, .container1 h1{
+    margin: 0 1px;
+}
+h1{
+    color: #863939;
+}
+
+/* #huhu{
+    background-image: url(/extra-files/cities-page-2/ocean.jpg);
+    background-size: cover;
+    background-repeat: no-repeat ;
+    width: 100%;
+    height: 0px;
+} */
+img{
+    width: 100%;
+    height: 20%;
+}
+/* .dongho .gift .thoiluong{
+    display: inline-block;
+} */
+
+.thep{
+    display: flex;
+    align-items: center;
+}
+.thep i{
+    color: #863939;
+    margin-right: 9px;
+    margin-top: 1px;
+}
+.thep p{
+    margin: 0;
+}
+h5 {
+    font-weight: 600 ;
+}
