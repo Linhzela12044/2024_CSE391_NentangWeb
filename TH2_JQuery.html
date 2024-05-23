@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Học web chuẩn</title>
+    <script src="https://code.jquery.com/jquery-latest.js"></script>
+    <script>
+        function ChangeContent(){
+            document.getElementById("box").innerHTML = `<h3>Title After Change</h3>
+            <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus pariatur iusto non, tempora expedita reprehenderit ipsam eius placeat! Laboriosam minima quam error alias neque animi culpa quaerat libero cumque vel.</div>`
+        }
+    </script>
+</head>
+
+<body>
+    <div id="box">
+        <h3>Title</h3>
+        <div>In suscipit nec velit sit amet convallis. Integer</div>
+    </div>
+    <button type="button" onclick=ChangeContent()>Click</button>
+</body>
+
+</html>
